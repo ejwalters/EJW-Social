@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		52C3F10D1E61E8CF00378C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F10C1E61E8CF00378C87 /* AppDelegate.swift */; };
-		52C3F10F1E61E8CF00378C87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F10E1E61E8CF00378C87 /* ViewController.swift */; };
+		52C3F10F1E61E8CF00378C87 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F10E1E61E8CF00378C87 /* SignInVC.swift */; };
 		52C3F1121E61E8CF00378C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3F1101E61E8CF00378C87 /* Main.storyboard */; };
 		52C3F1141E61E8CF00378C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C3F1131E61E8CF00378C87 /* Assets.xcassets */; };
 		52C3F1171E61E8CF00378C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3F1151E61E8CF00378C87 /* LaunchScreen.storyboard */; };
 		52C3F1221E61E8CF00378C87 /* EJW_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F1211E61E8CF00378C87 /* EJW_SocialTests.swift */; };
 		52C3F12D1E61E8CF00378C87 /* EJW_SocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F12C1E61E8CF00378C87 /* EJW_SocialUITests.swift */; };
+		52C3F13B1E61E94D00378C87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52C3F13A1E61E94D00378C87 /* GoogleService-Info.plist */; };
+		77E27921C41136E3F0F2F685 /* Pods_EJW_SocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F267B41B15F995E8DC6AE40C /* Pods_EJW_SocialUITests.framework */; };
+		DAA25C6897F0E7CE3524320C /* Pods_EJW_SocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F691DD5EA3E935389D6DAC10 /* Pods_EJW_SocialTests.framework */; };
+		FEA8EF51B4DF0C6FA6BF2695 /* Pods_EJW_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F55744EC21C2072E010C127 /* Pods_EJW_Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F55744EC21C2072E010C127 /* Pods_EJW_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EJW_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B35116FAD6FB4DA6642710 /* Pods-EJW-SocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialTests/Pods-EJW-SocialTests.release.xcconfig"; sourceTree = "<group>"; };
 		52C3F1091E61E8CF00378C87 /* EJW-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EJW-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C3F10C1E61E8CF00378C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52C3F10E1E61E8CF00378C87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52C3F10E1E61E8CF00378C87 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		52C3F1111E61E8CF00378C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52C3F1131E61E8CF00378C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C3F1161E61E8CF00378C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		52C3F1281E61E8CF00378C87 /* EJW-SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EJW-SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C3F12C1E61E8CF00378C87 /* EJW_SocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EJW_SocialUITests.swift; sourceTree = "<group>"; };
 		52C3F12E1E61E8CF00378C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C3F13A1E61E94D00378C87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6ED2542729C2EF6410920BD4 /* Pods-EJW-SocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialUITests/Pods-EJW-SocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75648A15043E2BB9D6F7C2F1 /* Pods-EJW-Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-Social/Pods-EJW-Social.release.xcconfig"; sourceTree = "<group>"; };
+		8A5384C61450FE48632017EA /* Pods-EJW-SocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialTests/Pods-EJW-SocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B333ADF07DEC104648B50F10 /* Pods-EJW-Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-Social/Pods-EJW-Social.debug.xcconfig"; sourceTree = "<group>"; };
+		E05022B670BAEFC291A8CED8 /* Pods-EJW-SocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialUITests/Pods-EJW-SocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F267B41B15F995E8DC6AE40C /* Pods_EJW_SocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EJW_SocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F691DD5EA3E935389D6DAC10 /* Pods_EJW_SocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EJW_SocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA8EF51B4DF0C6FA6BF2695 /* Pods_EJW_Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA25C6897F0E7CE3524320C /* Pods_EJW_SocialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E27921C41136E3F0F2F685 /* Pods_EJW_SocialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				52C3F1201E61E8CF00378C87 /* EJW-SocialTests */,
 				52C3F12B1E61E8CF00378C87 /* EJW-SocialUITests */,
 				52C3F10A1E61E8CF00378C87 /* Products */,
+				8603C90F40DCE3B8B95C6F69 /* Pods */,
+				6F08EF6981CAA55D9FEDE488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,15 @@
 		52C3F10B1E61E8CF00378C87 /* EJW-Social */ = {
 			isa = PBXGroup;
 			children = (
+				52C3F13E1E63068700378C87 /* Controller */,
+				52C3F13D1E63068200378C87 /* View */,
+				52C3F13C1E63067D00378C87 /* Model */,
 				52C3F10C1E61E8CF00378C87 /* AppDelegate.swift */,
-				52C3F10E1E61E8CF00378C87 /* ViewController.swift */,
 				52C3F1101E61E8CF00378C87 /* Main.storyboard */,
 				52C3F1131E61E8CF00378C87 /* Assets.xcassets */,
 				52C3F1151E61E8CF00378C87 /* LaunchScreen.storyboard */,
 				52C3F1181E61E8CF00378C87 /* Info.plist */,
+				52C3F13A1E61E94D00378C87 /* GoogleService-Info.plist */,
 			);
 			path = "EJW-Social";
 			sourceTree = "<group>";
@@ -125,6 +147,51 @@
 			path = "EJW-SocialUITests";
 			sourceTree = "<group>";
 		};
+		52C3F13C1E63067D00378C87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52C3F13D1E63068200378C87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52C3F13E1E63068700378C87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52C3F10E1E61E8CF00378C87 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6F08EF6981CAA55D9FEDE488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F55744EC21C2072E010C127 /* Pods_EJW_Social.framework */,
+				F691DD5EA3E935389D6DAC10 /* Pods_EJW_SocialTests.framework */,
+				F267B41B15F995E8DC6AE40C /* Pods_EJW_SocialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8603C90F40DCE3B8B95C6F69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B333ADF07DEC104648B50F10 /* Pods-EJW-Social.debug.xcconfig */,
+				75648A15043E2BB9D6F7C2F1 /* Pods-EJW-Social.release.xcconfig */,
+				8A5384C61450FE48632017EA /* Pods-EJW-SocialTests.debug.xcconfig */,
+				23B35116FAD6FB4DA6642710 /* Pods-EJW-SocialTests.release.xcconfig */,
+				E05022B670BAEFC291A8CED8 /* Pods-EJW-SocialUITests.debug.xcconfig */,
+				6ED2542729C2EF6410920BD4 /* Pods-EJW-SocialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52C3F1311E61E8CF00378C87 /* Build configuration list for PBXNativeTarget "EJW-Social" */;
 			buildPhases = (
+				65A493260522CD7CE68B2EE8 /* [CP] Check Pods Manifest.lock */,
 				52C3F1051E61E8CF00378C87 /* Sources */,
 				52C3F1061E61E8CF00378C87 /* Frameworks */,
 				52C3F1071E61E8CF00378C87 /* Resources */,
+				A1C4954197AF5D8679598B59 /* [CP] Embed Pods Frameworks */,
+				C642F275B4C6A884FB048F6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52C3F1341E61E8CF00378C87 /* Build configuration list for PBXNativeTarget "EJW-SocialTests" */;
 			buildPhases = (
+				75F167E5AFC984E48697571E /* [CP] Check Pods Manifest.lock */,
 				52C3F1191E61E8CF00378C87 /* Sources */,
 				52C3F11A1E61E8CF00378C87 /* Frameworks */,
 				52C3F11B1E61E8CF00378C87 /* Resources */,
+				0079486F7F0306A6B0C19DC6 /* [CP] Embed Pods Frameworks */,
+				D847C3EBFC926D7291B432E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52C3F1371E61E8CF00378C87 /* Build configuration list for PBXNativeTarget "EJW-SocialUITests" */;
 			buildPhases = (
+				26E3A2394316569BC7E9B79C /* [CP] Check Pods Manifest.lock */,
 				52C3F1241E61E8CF00378C87 /* Sources */,
 				52C3F1251E61E8CF00378C87 /* Frameworks */,
 				52C3F1261E61E8CF00378C87 /* Resources */,
+				9F50917D8E493A5AF229CDC3 /* [CP] Embed Pods Frameworks */,
+				BB85B19D6904DD784E6E5D22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C3F1171E61E8CF00378C87 /* LaunchScreen.storyboard in Resources */,
+				52C3F13B1E61E94D00378C87 /* GoogleService-Info.plist in Resources */,
 				52C3F1141E61E8CF00378C87 /* Assets.xcassets in Resources */,
 				52C3F1121E61E8CF00378C87 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +334,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0079486F7F0306A6B0C19DC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EJW-SocialTests/Pods-EJW-SocialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26E3A2394316569BC7E9B79C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65A493260522CD7CE68B2EE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75F167E5AFC984E48697571E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F50917D8E493A5AF229CDC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EJW-SocialUITests/Pods-EJW-SocialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C4954197AF5D8679598B59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EJW-Social/Pods-EJW-Social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB85B19D6904DD784E6E5D22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EJW-SocialUITests/Pods-EJW-SocialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C642F275B4C6A884FB048F6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EJW-Social/Pods-EJW-Social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D847C3EBFC926D7291B432E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EJW-SocialTests/Pods-EJW-SocialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52C3F1051E61E8CF00378C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C3F10F1E61E8CF00378C87 /* ViewController.swift in Sources */,
+				52C3F10F1E61E8CF00378C87 /* SignInVC.swift in Sources */,
 				52C3F10D1E61E8CF00378C87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +628,7 @@
 		};
 		52C3F1321E61E8CF00378C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B333ADF07DEC104648B50F10 /* Pods-EJW-Social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9RCEQ78UDF;
@@ -426,6 +642,7 @@
 		};
 		52C3F1331E61E8CF00378C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75648A15043E2BB9D6F7C2F1 /* Pods-EJW-Social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9RCEQ78UDF;
@@ -439,6 +656,7 @@
 		};
 		52C3F1351E61E8CF00378C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5384C61450FE48632017EA /* Pods-EJW-SocialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +672,7 @@
 		};
 		52C3F1361E61E8CF00378C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B35116FAD6FB4DA6642710 /* Pods-EJW-SocialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +688,7 @@
 		};
 		52C3F1381E61E8CF00378C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05022B670BAEFC291A8CED8 /* Pods-EJW-SocialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9RCEQ78UDF;
@@ -483,6 +703,7 @@
 		};
 		52C3F1391E61E8CF00378C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED2542729C2EF6410920BD4 /* Pods-EJW-SocialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9RCEQ78UDF;
@@ -514,6 +735,7 @@
 				52C3F1331E61E8CF00378C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52C3F1341E61E8CF00378C87 /* Build configuration list for PBXNativeTarget "EJW-SocialTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +744,7 @@
 				52C3F1361E61E8CF00378C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52C3F1371E61E8CF00378C87 /* Build configuration list for PBXNativeTarget "EJW-SocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +753,7 @@
 				52C3F1391E61E8CF00378C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
