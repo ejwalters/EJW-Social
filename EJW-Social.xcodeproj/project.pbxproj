@@ -21,6 +21,7 @@
 		52C3F1481E631D0600378C87 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F1471E631D0600378C87 /* FancyField.swift */; };
 		52C3F14A1E631E3600378C87 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F1491E631E3600378C87 /* FancyButton.swift */; };
 		52E0F17B1E670B2D001C1355 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0F17A1E670B2D001C1355 /* FeedVC.swift */; };
+		52E0F17D1E671942001C1355 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0F17C1E671942001C1355 /* CircleView.swift */; };
 		77E27921C41136E3F0F2F685 /* Pods_EJW_SocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F267B41B15F995E8DC6AE40C /* Pods_EJW_SocialUITests.framework */; };
 		DAA25C6897F0E7CE3524320C /* Pods_EJW_SocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F691DD5EA3E935389D6DAC10 /* Pods_EJW_SocialTests.framework */; };
 		FEA8EF51B4DF0C6FA6BF2695 /* Pods_EJW_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F55744EC21C2072E010C127 /* Pods_EJW_Social.framework */; };
@@ -67,6 +68,7 @@
 		52C3F1491E631E3600378C87 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		52E0F1771E64924E001C1355 /* EJW-Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EJW-Social.entitlements"; sourceTree = "<group>"; };
 		52E0F17A1E670B2D001C1355 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		52E0F17C1E671942001C1355 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		6ED2542729C2EF6410920BD4 /* Pods-EJW-SocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialUITests/Pods-EJW-SocialUITests.release.xcconfig"; sourceTree = "<group>"; };
 		75648A15043E2BB9D6F7C2F1 /* Pods-EJW-Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-Social/Pods-EJW-Social.release.xcconfig"; sourceTree = "<group>"; };
 		8A5384C61450FE48632017EA /* Pods-EJW-SocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialTests/Pods-EJW-SocialTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				52C3F1451E631A9100378C87 /* RoundButton.swift */,
 				52C3F1471E631D0600378C87 /* FancyField.swift */,
 				52C3F1491E631E3600378C87 /* FancyButton.swift */,
+				52E0F17C1E671942001C1355 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E0F17D1E671942001C1355 /* CircleView.swift in Sources */,
 				52C3F1481E631D0600378C87 /* FancyField.swift in Sources */,
 				52C3F10F1E61E8CF00378C87 /* SignInVC.swift in Sources */,
 				52C3F1461E631A9100378C87 /* RoundButton.swift in Sources */,
