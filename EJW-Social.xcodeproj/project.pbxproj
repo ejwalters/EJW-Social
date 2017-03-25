@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526E37771E870E0A0092A838 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E37761E870E0A0092A838 /* DataService.swift */; };
 		52C3F10D1E61E8CF00378C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F10C1E61E8CF00378C87 /* AppDelegate.swift */; };
 		52C3F10F1E61E8CF00378C87 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F10E1E61E8CF00378C87 /* SignInVC.swift */; };
 		52C3F1121E61E8CF00378C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3F1101E61E8CF00378C87 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		52C3F14A1E631E3600378C87 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F1491E631E3600378C87 /* FancyButton.swift */; };
 		52E0F17B1E670B2D001C1355 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0F17A1E670B2D001C1355 /* FeedVC.swift */; };
 		52E0F17D1E671942001C1355 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0F17C1E671942001C1355 /* CircleView.swift */; };
+		52E0F17F1E6765A8001C1355 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0F17E1E6765A8001C1355 /* PostCell.swift */; };
 		77E27921C41136E3F0F2F685 /* Pods_EJW_SocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F267B41B15F995E8DC6AE40C /* Pods_EJW_SocialUITests.framework */; };
 		DAA25C6897F0E7CE3524320C /* Pods_EJW_SocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F691DD5EA3E935389D6DAC10 /* Pods_EJW_SocialTests.framework */; };
 		FEA8EF51B4DF0C6FA6BF2695 /* Pods_EJW_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F55744EC21C2072E010C127 /* Pods_EJW_Social.framework */; };
@@ -47,6 +49,7 @@
 /* Begin PBXFileReference section */
 		1F55744EC21C2072E010C127 /* Pods_EJW_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EJW_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B35116FAD6FB4DA6642710 /* Pods-EJW-SocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialTests/Pods-EJW-SocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		526E37761E870E0A0092A838 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		52C3F1091E61E8CF00378C87 /* EJW-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EJW-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C3F10C1E61E8CF00378C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C3F10E1E61E8CF00378C87 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 		52E0F1771E64924E001C1355 /* EJW-Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EJW-Social.entitlements"; sourceTree = "<group>"; };
 		52E0F17A1E670B2D001C1355 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		52E0F17C1E671942001C1355 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		52E0F17E1E6765A8001C1355 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		6ED2542729C2EF6410920BD4 /* Pods-EJW-SocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialUITests/Pods-EJW-SocialUITests.release.xcconfig"; sourceTree = "<group>"; };
 		75648A15043E2BB9D6F7C2F1 /* Pods-EJW-Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-Social/Pods-EJW-Social.release.xcconfig"; sourceTree = "<group>"; };
 		8A5384C61450FE48632017EA /* Pods-EJW-SocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJW-SocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EJW-SocialTests/Pods-EJW-SocialTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526E37751E870DE90092A838 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				526E37761E870E0A0092A838 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		52C3F1001E61E8CF00378C87 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +143,7 @@
 		52C3F10B1E61E8CF00378C87 /* EJW-Social */ = {
 			isa = PBXGroup;
 			children = (
+				526E37751E870DE90092A838 /* Services */,
 				52E0F1771E64924E001C1355 /* EJW-Social.entitlements */,
 				52C3F1421E63189200378C87 /* Util */,
 				52C3F13E1E63068700378C87 /* Controller */,
@@ -179,6 +192,7 @@
 				52C3F1471E631D0600378C87 /* FancyField.swift */,
 				52C3F1491E631E3600378C87 /* FancyButton.swift */,
 				52E0F17C1E671942001C1355 /* CircleView.swift */,
+				52E0F17E1E6765A8001C1355 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -518,10 +532,12 @@
 				52C3F10F1E61E8CF00378C87 /* SignInVC.swift in Sources */,
 				52C3F1461E631A9100378C87 /* RoundButton.swift in Sources */,
 				52C3F14A1E631E3600378C87 /* FancyButton.swift in Sources */,
+				526E37771E870E0A0092A838 /* DataService.swift in Sources */,
 				52E0F17B1E670B2D001C1355 /* FeedVC.swift in Sources */,
 				52C3F10D1E61E8CF00378C87 /* AppDelegate.swift in Sources */,
 				52C3F1401E6317FF00378C87 /* FancyView.swift in Sources */,
 				52C3F1441E6318A700378C87 /* Constants.swift in Sources */,
+				52E0F17F1E6765A8001C1355 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
